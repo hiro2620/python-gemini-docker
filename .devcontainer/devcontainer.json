@@ -1,0 +1,19 @@
+{
+    "name": "Python develop container",
+    "build": {
+        "dockerfile": "../Dockerfile"
+    },
+    "workspaceFolder": "/code",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "editor.tabSize": 4,
+                "python.defaultInterpreterPath": "/usr/local/bin/python"
+            },
+            "extensions": [
+                "ms-python.python",
+                "github.copilot"
+            ]
+        }
+    }
+}
