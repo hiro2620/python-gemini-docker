@@ -4,6 +4,9 @@
         "dockerfile": "../Dockerfile"
     },
     "workspaceFolder": "/code",
+    "mounts": [
+        "source=${localWorkspaceFolder},target=/code,type=bind,consistency=cached"
+    ],
     "customizations": {
         "vscode": {
             "settings": {
